@@ -1,0 +1,63 @@
+.date{
+  font-weight: bold;
+  color:red;
+  margin-top: 16px;
+}
+.banner__search{
+width: 100%;
+display:flex;
+height: 10px;
+justify-content: center;
+align-items:center;
+border-top: 1px solid gray;
+}
+
+ .banner{
+    width: 100%;
+    object-fit: cover;
+    height:260px;
+    margin-left: 60px;
+}
+
+.banner img{
+    width: 100%;
+    object-fit: cover;
+    height:260px;
+}
+.banner__side{
+    width: 100%;
+    display:flex;
+    overflow: hidden;
+    
+}
+.bannerPage{
+color:white;
+width: 300px;
+height: 340px;
+overflow:show;
+background-color:black;
+border-top: 1px solid gray;
+position: absolute;
+z-index: 1;
+}
+.bannerbtn{
+    margin-top:130px;
+    margin-left: 10px;
+}
+.bannerbtn h1{
+  font-size:40px;
+  color:gold;
+}
+
+.btn{
+padding:5px;
+padding-left: 20px;
+padding-right: 20px;
+border-radius: 15px;
+font-weight: bold;
+border:none;
+}
+.btn:hover{
+  background-color:green;
+  color:white;
+}

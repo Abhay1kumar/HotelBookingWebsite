@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+ 
+    flex-direction: row;
+    gap:25px;
+    flex-wrap: wrap;
+    background-color:rgb(247, 241, 244);
+
+}
+.image img{
+    width: 470px;
+    height:300px;
+    border-radius: 15px 15px 0 0;
+    object-fit: cover;
+    
+  
+}
+.cards{
+    margin:15px 0px 20px 10px;
+    width: 470px;
+    height: 500px;
+    border-radius:15px;
+    border: 1px solid rgb(3, 3, 3);
+    transition: transform .2s;
+    box-shadow: 10px 10px 15px rgb(161, 159, 159);
+    
+}
+
+.cards:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    z-index: 3;
+}
+.cards h2, .cards h3{
+    margin-left: 5px;
+}

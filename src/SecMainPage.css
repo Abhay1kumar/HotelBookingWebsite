@@ -1,0 +1,46 @@
+.icons:hover{
+    color:red;
+    /* background-color:red; */
+}
+.starIcon{
+    color: red;
+    /* font-weight: bold; */
+    font-size: 20px;
+}
+.mainDiv{
+    display:flex;
+    margin-top: 20px;
+    border-bottom: 1px solid gray;
+}
+.price{
+    margin-top:100px;
+    line-height:6px;
+  font-size: 12px;
+  position:absolute;
+  right:310px;
+}
+.icons{
+    position: absolute;
+    right:40px;
+margin-left: 230px;
+}
+.imageDiv img{
+    margin-left: 15px;
+    width:400px;
+    height:250px;
+    border-radius:5px;
+    object-fit:cover;
+}
+.imageDiv{
+    object-fit:cover;
+    height:250px;
+}
+
+.description{
+    margin-left:4px;
+    font-size:13px;
+    color:rgb(104, 101, 101);
+}
+.rating{
+    color:black;
+}

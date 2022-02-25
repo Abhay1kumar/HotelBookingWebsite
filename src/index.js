@@ -2,17 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import Count from './Count.js'
-import Update from './Update';
 
-import { BrowserRouter } from 'react-router-dom';
 
 ReactDOM.render(
-  <BrowserRouter>
-    <App />
-    <Count />
-    <Update />
-  </BrowserRouter>,
+
+    <App />,
+ 
   document.getElementById('root')
 );
 

@@ -1,0 +1,14 @@
+.all_btn{
+    border-radius:15px;
+    padding:10px 18px 10px 18px;
+    background:white;
+    font-size: 13px;
+}
+.buttonDiv{
+    display:flex;
+    gap:10px;
+    margin-bottom: 5px;
+}
+.all_btn:hover{
+    background:rgb(202, 199, 199);
+}
